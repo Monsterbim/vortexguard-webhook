@@ -16,7 +16,7 @@ app.post("/kick", async (req, res) => {
   try {
     await axios.post(DISCORD_WEBHOOK_URL, {
       username: "VortexGuard",
-      avatar_url: "g.png",
+      avatar_url: "https://github.com/Monsterbim/vortexguard-webhook/blob/main/g.png?raw=true",
       content: `🚨 **Kick Alert**
 **Player:** \`${playerName}\`
 **Reason:** \`${reason}\``
